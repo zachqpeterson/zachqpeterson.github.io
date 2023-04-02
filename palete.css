@@ -1,15 +1,13 @@
 /*
 Palete
 Background: #202124
-Dividers: #3c4043
+Divider1: #3c4043
+Divider2: #5f6368
 White: #ffffff
+Box: #303134
+Icon1: #9aa0a6
+Icon2: #868b90
 */
-
-:root {
-    --background: #202124;
-    --foreground: #ffffff;
-    --divider: #3c4043;
-}
 
 * {
     box-sizing: border-box;
@@ -61,4 +59,10 @@ White: #ffffff
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+}
+
+.project {
+    background-color: #303134;
+    padding: 20px;
+    margin: 10px;
 }
