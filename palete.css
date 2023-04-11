@@ -81,3 +81,15 @@ Icon2: #868b90
 .project {
     background-color: #303134;
 }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.title {
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-size: 30px;
+}
