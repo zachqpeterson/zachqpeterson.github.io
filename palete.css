@@ -79,11 +79,11 @@ Icon2: #868b90
 }
 
 .project {
+    display: flex;
     background-color: #303134;
 }
 
-a:hover, a:visited, a:link, a:active
-{
+a:hover, a:visited, a:link, a:active {
     text-decoration: none;
 }
 
@@ -92,4 +92,15 @@ a:hover, a:visited, a:link, a:active
     margin-left: 20px;
     margin-top: 80px;
     font-size: 30px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
 }
