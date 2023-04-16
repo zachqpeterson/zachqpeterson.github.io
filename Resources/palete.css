@@ -155,3 +155,12 @@ a:hover, a:visited, a:link, a:active {
     left: 0;
     z-index: 1;
 }
+
+.footer {
+    font-size: 20px;
+	position: fixed;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
