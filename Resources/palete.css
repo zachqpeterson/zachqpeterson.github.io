@@ -21,12 +21,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 * {
@@ -38,7 +38,7 @@ time, mark, audio, video {
     clear: both;
     display: table;
 }
-  
+
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -61,7 +61,7 @@ time, mark, audio, video {
 
     .col-p-proj {width: 100%;}
 }
-  
+
 /* For tablets: */
 @media only screen and (min-width: 600px) {
     .col-t-1 {width: 8.33%;}
@@ -103,6 +103,7 @@ time, mark, audio, video {
     margin-top: 10px;
     cursor: pointer;
     position: relative;
+    padding: 10px;
 }
 
 a:hover, a:visited, a:link, a:active {
@@ -111,10 +112,19 @@ a:hover, a:visited, a:link, a:active {
 
 .title {
     color: #ffffff;
-    margin-left: 20px;
-    margin-top: 80px;
     font-size: 30px;
     font-weight: bold;
+    position: absolute;
+      top: 5%;
+    left: 230px;
+}
+
+.description {
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+      top: 22%;
+    left: 230px;
 }
 
 .logo {
