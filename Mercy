@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="Resources/palete.css">
+		<link rel="icon" href="Resources/MercyLogo.png">
+		<title>Mercy</title>
+	</head>
+	<body style="background-color:#202124">
+		<div>
+			<p class="header">Mercy</p>
+            
+            <img class="image" src="Resources/MercyLogo.png" alt="Mercy Logo">
+			<p class="fullDescription">Mercy is an isometric dungeon crawler that is procedurally generated.</p>
+		</div>
+
+		<p class="footer">This website is under construction, more project info to be added</p>
+	</body>
+</html>
