@@ -114,13 +114,24 @@ a:active {
     margin-bottom: 20px;
 }
 
-.footer {
+html, body {
+    background-color:#202124;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+footer {
+    margin-top: 10px;
     font-size: 20px;
-    position: fixed;
-    bottom: 10px;
-    width: 100%;
+    position: static;
+    padding: 15px;
+    bottom: 0;
     color: white;
     text-align: center;
+    background-color: #202124;
 }
 
 .project {
@@ -215,4 +226,26 @@ a:active {
     font-size: 20px;
     margin-left: 50px;
     padding-top: 25px;
+}
+
+.buffer {
+    height: 200px;
+    width: 100%;
+}
+
+.gallery {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gallerItem {
+    width: 350px;
+    height: 350px;
+    background-color: #303134;
+}
+
+.galleryImage {
+    width: 350px;
+    float: left;
+    margin-right: 20px;
 }
